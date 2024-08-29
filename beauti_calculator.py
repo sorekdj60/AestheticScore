@@ -125,7 +125,7 @@ def calculate_beauty_score(class_dict):
     
     return beauty_score
 
-def load_model_weights(path='beauti_classificator.pth', device=None):
+def load_model_weights(path='model.pth', device=None):
     """
     Load the model's weights from the specified path.
     
